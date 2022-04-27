@@ -47,3 +47,10 @@ class Main : AppCompatActivity(){
 
     }
 }
+
+/**
+ * Step 4 - Create a textView inside the main_activity_view
+ * Open XML file you created.
+ * Step 4 outlined in XML file "main_activity_view"
+ *
+ * */
