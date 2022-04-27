@@ -35,7 +35,11 @@ class Main : AppCompatActivity(){
          * Name the file 'main_activity_view'
          * You can name this file anything but it's suggested to name the view close to the activity (or fragment) that controls the ui.
          * In this case, "Main.kt" will be the UI controller for this view.
+         *
+         *
+         * Use setContentView(PATH TO YOUR LAYOUT) in the onCreate method
          * */
+        setContentView(R.layout.main_activity_view)
 
     }
 }
