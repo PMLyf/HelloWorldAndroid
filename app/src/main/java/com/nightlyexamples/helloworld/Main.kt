@@ -54,3 +54,25 @@ class Main : AppCompatActivity(){
  * Step 4 outlined in XML file "main_activity_view"
  *
  * */
+
+
+/**
+ *
+ * Note-  If you manually create new views you must declare them in the manifest
+ *
+ * Project > app > manifest > manifest.xml
+ *
+<activity android:name=".Main"
+android:exported="true">
+
+<intent-filter>
+<action android:name="android.intent.action.MAIN">
+
+</action>
+
+<category android:name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+
+</activity>
+ *
+ * */
