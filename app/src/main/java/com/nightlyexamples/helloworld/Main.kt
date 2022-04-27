@@ -38,6 +38,10 @@ class Main : AppCompatActivity(){
          *
          *
          * Use setContentView(PATH TO YOUR LAYOUT) in the onCreate method
+         * R - Resource
+            l - Layout
+            main_activity_view -  The name you gave to an XML layout file
+         *
          * */
         setContentView(R.layout.main_activity_view)
 
