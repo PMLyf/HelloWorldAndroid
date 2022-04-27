@@ -23,5 +23,9 @@ class Main : AppCompatActivity(){
     /**
      * Step 2-  Override onCreate function.
      * */
+    //CTRL + O
+    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
+        super.onCreate(savedInstanceState, persistentState)
 
+    }
 }
