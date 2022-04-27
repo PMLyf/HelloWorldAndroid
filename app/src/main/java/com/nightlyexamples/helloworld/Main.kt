@@ -27,5 +27,15 @@ class Main : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
         super.onCreate(savedInstanceState, persistentState)
 
+        /**
+         * Step 3 - Open the Project structure and expand the Resource ("res") directory.
+         * Create a new directory called 'layout' in the Resource directory. This is a directory for xml layouts.
+         * Right click on the directory Layout.
+         * In the drop down select New >  Layout Resource File
+         * Name the file 'main_activity_view'
+         * You can name this file anything but it's suggested to name the view close to the activity (or fragment) that controls the ui.
+         * In this case, "Main.kt" will be the UI controller for this view.
+         * */
+
     }
 }
