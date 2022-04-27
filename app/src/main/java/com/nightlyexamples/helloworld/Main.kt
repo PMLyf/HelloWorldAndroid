@@ -1,4 +1,9 @@
 package com.nightlyexamples.helloworld
+
+import android.os.Bundle
+import android.os.PersistableBundle
+import androidx.appcompat.app.AppCompatActivity
+
 /**
  *
  *
@@ -14,5 +19,9 @@ package com.nightlyexamples.helloworld
 /**
  * Step 1- Main activity must extend AppCompatActivity()
  * */
-class Main {
+class Main : AppCompatActivity(){
+    /**
+     * Step 2-  Override onCreate function.
+     * */
+
 }
